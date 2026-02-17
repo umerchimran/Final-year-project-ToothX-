@@ -5,6 +5,7 @@ This project focuses on the preparation of a structured dataset for automated de
 
 The system handles five dental diseases: Calculus, Dental Caries, Hypodontia, Tooth Discoloration, and Gingivitis. Each disease is treated as a separate detection class. Due to the large size of the complete dataset, only sample images and their corresponding label files are uploaded to this repository. The full dataset is maintained locally.
 
+
 Diseases Covered
 
 This dataset includes five major dental conditions.
@@ -18,6 +19,8 @@ Hypodontia is a condition involving the congenital absence of one or more teeth.
 Tooth Discoloration includes abnormal color changes such as yellowing, browning, or black staining. Affected tooth regions were manually annotated to enable detection of discoloration patterns.
 
 Gingivitis is inflammation of the gums, typically visible as redness or swelling near the gum line. The inflamed gum areas were annotated to help the model distinguish between healthy and inflamed gum tissue.
+
+
 
 Image Preprocessing
 
@@ -33,6 +36,8 @@ Image sharpening was applied using a convolution-based sharpening kernel. This e
 
 Preprocessed images are saved in separate folders for each disease along with corresponding preprocessed labels.
 
+
+
 Annotation Methodology
 
 A custom manual annotation tool was developed using OpenCV. The annotation process is fully interactive and allows bounding boxes to be drawn using mouse drag operations. The tool supports moving existing bounding boxes, undoing the last drawn box, rotating bounding boxes for better alignment, and navigating between images.
@@ -44,6 +49,8 @@ Each label file contains entries in the following structure:
 <class_id> <x_center> <y_center> <width> <height>
 
 All coordinate values are normalized between 0 and 1 relative to the resized image dimensions. This ensures direct compatibility with YOLO-based training frameworks.
+
+
 
 Dataset Organization
 
