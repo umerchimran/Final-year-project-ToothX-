@@ -57,3 +57,6 @@ Dataset Organization
 Each disease has its own structured directory containing sample original images, corresponding YOLO label files, preprocessed images, and preprocessed labels. The repository includes the annotation and preprocessing scripts required to reproduce the dataset preparation pipeline.
 
 Because the complete dataset contains a large number of images and label files that exceed GitHub’s storage limits, only representative samples are uploaded. The provided code allows the entire dataset to be regenerated locally using the same preprocessing and annotation workflow.
+
+
+The whole imagery dataset with labels for each disease is saved in the laptop only samples are being uploaded beacuse of too much images and labels.
