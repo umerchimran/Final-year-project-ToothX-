@@ -59,4 +59,6 @@ Each disease has its own structured directory containing sample original images,
 Because the complete dataset contains a large number of images and label files that exceed GitHub’s storage limits, only representative samples are uploaded. The provided code allows the entire dataset to be regenerated locally using the same preprocessing and annotation workflow.
 
 
-The whole imagery dataset with labels for each disease is saved in the laptop only samples are being uploaded beacuse of too much images and labels.
+NOTE !!!
+
+The whole imagery dataset with labels for each disease is saved in the laptop only samples are being uploaded beacuse of too much images and labels + the code is also uploaded in the Preprocessed_Data directory with each disease.
